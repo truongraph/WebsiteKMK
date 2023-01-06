@@ -1,0 +1,8 @@
+version: '3'
+services:
+  kmk-home:
+    image: kmk/home-website:latest
+    container_name: kmk-home
+    restart: always
+    ports:
+      - "127.0.0.1:3001:3000"
